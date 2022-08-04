@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-sbPallet-bgBlack font-montserrat text-white/90;
+  @appply -webkit-font-smoothing: antialiased;
+  @appply -moz-osx-font-smoothing: grayscale;
+}
