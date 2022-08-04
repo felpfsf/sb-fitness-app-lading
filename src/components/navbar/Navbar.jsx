@@ -21,7 +21,9 @@ const Navbar = () => {
         </ul>
       </nav>
       <a className='hidden lg:block w-40 p-2 text-xs text-center uppercase border rounded-lg hover:bg-sbPallet-accent hover:border-sbPallet-accent ease-in-out duration-200' href="#">Request a call</a>
+
       {/* Button and Menu Mobile */}
+      
       {
         openMenu ?
           <AiOutlineClose onClick={handleOpenMenu} className='lg:hidden z-10 text-[32px] text-white cursor-pointer' />
