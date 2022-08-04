@@ -14,7 +14,7 @@ const Hero = () => {
           <a className='w-[212px] h-9 p-3 text-lg bg-sbPallet-accent rounded-lg flex items-center justify-center' href="#">Learn more</a>
         </div>
         {/* hero image visible on tablet desktop */}
-        <img className='hidden lg:block pt-36' src="/assets/girl-fitness.png" alt="" />
+        <img className='hidden lg:block pt-36' src="/assets/girl-fitness.png" alt="Girl lifting in smith machine" />
       </div>
 
       {/* Cards */}
