@@ -2,7 +2,7 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div className='w-full h-screen bg-[url("/assets/hero-img-mobile.png")] md:bg-[url("/assets/hero-img-desktop.png")] bg-right-top bg-no-repeat'>
+    <div className='w-full bg-[url("/assets/hero-img-mobile.png")] md:bg-[url("/assets/hero-img-desktop.png")] bg-right-top bg-no-repeat'>
       {/* Call to action */}
       <div className='flex md:px-8 xl:justify-center'>
         <div className='md:w-[484px] pt-[112px] md:pt-40 px-16 flex flex-col justify-center'>
