@@ -7,7 +7,7 @@ const Navbar = () => {
   const handleOpenMenu = () => { setOpenMenu(!openMenu) }
 
   return (
-    <header className='w-full z-10 absolute py-6 px-16 lg:px-24 flex items-center justify-between'>
+    <header className='w-full z-10 fixed py-6 px-16 lg:px-24 flex items-center justify-between'>
       <a href="#home">
         <img className='w-8 h-8' src="/assets/SB-logo.png" alt="SB logo" />
       </a>
@@ -16,7 +16,7 @@ const Navbar = () => {
         <ul className='text-center uppercase flex gap-8'>
           <li className='text-base font-bold pb-8 md:pb-0'><a className='hover:underline underline-offset-8' href="#" onClick={() => setOpenMenu(false)}>Home</a></li>
           <li className='text-base font-bold pb-8 md:pb-0'><a className='hover:underline underline-offset-8' href="#about" onClick={() => setOpenMenu(false)}>Program</a></li>
-          <li className='text-base font-bold pb-8 md:pb-0'><a className='hover:underline underline-offset-8' href="#" onClick={() => setOpenMenu(false)}>Results</a></li>
+          <li className='text-base font-bold pb-8 md:pb-0'><a className='hover:underline underline-offset-8' href="#results" onClick={() => setOpenMenu(false)}>Results</a></li>
           <li className='text-base font-bold pb-8 md:pb-0'><a className='hover:underline underline-offset-8' href="#" onClick={() => setOpenMenu(false)}>Contact Us</a></li>
         </ul>
       </nav>
@@ -39,7 +39,7 @@ const Navbar = () => {
         <ul className='text-center uppercase'>
           <li className='text-lg font-bold pb-8'><a className='hover:underline underline-offset-[16px]' href="#" onClick={() => setOpenMenu(false)}>Home</a></li>
           <li className='text-lg font-bold pb-8'><a className='hover:underline underline-offset-[16px]' href="#about" onClick={() => setOpenMenu(false)}>Program</a></li>
-          <li className='text-lg font-bold pb-8'><a className='hover:underline underline-offset-[16px]' href="#" onClick={() => setOpenMenu(false)}>Results</a></li>
+          <li className='text-lg font-bold pb-8'><a className='hover:underline underline-offset-[16px]' href="#results" onClick={() => setOpenMenu(false)}>Results</a></li>
           <li className='text-lg font-bold pb-8'><a className='hover:underline underline-offset-[16px]' href="#" onClick={() => setOpenMenu(false)}>Contact Us</a></li>
         </ul>
         <a className='w-40 p-2 text-xs text-center uppercase border rounded-lg hover:bg-sbPallet-accent hover:border-sbPallet-accent ease-in-out duration-200' href="#">Request a call</a>
