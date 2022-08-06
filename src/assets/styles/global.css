@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   @apply bg-sbPallet-bgBlack font-montserrat text-white/90;
   @appply -webkit-font-smoothing: antialiased;
