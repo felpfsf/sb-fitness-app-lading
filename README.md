@@ -2,22 +2,24 @@
 
  <!-- :uk: [English version](/Readme/README-en.md) / [Pt-BR version](../README.md) -->
 
- <img src="https://raw.githubusercontent.com/felpfsf/mission-space-explorers/master/design/banner.png" style="border-top-left-radius: 10px; border-top-right-radius: 10px">
+ <img src="https://user-images.githubusercontent.com/2619027/183268553-7eb69699-05c6-4d0a-85a9-08dfe2b272b7.png" style="border-top-left-radius: 10px; border-top-right-radius: 10px">
  
 
-  ![GitHub repo size](https://img.shields.io/github/repo-size/felpfsf/mission-space-explorers) ![GitHub language count](https://img.shields.io/github/languages/count/felpfsf/mission-space-explorers) ![GitHub top language](https://img.shields.io/github/languages/top/felpfsf/mission-space-explorers)
+  ![GitHub repo size](https://img.shields.io/github/repo-size/felpfsf/sb-fitness-app-lading) ![GitHub language count](https://img.shields.io/github/languages/count/felpfsf/sb-fitness-app-lading) ![GitHub top language](https://img.shields.io/github/languages/top/felpfsf/sb-fitness-app-lading)
 
 </div>
 
-# Space Tourism
+# SB - Fitness App
 
-Personal project inspired on the The Frontend Mentor's challenge Space Tourism. It's about a fiction company that plans missions to outher planets, you can check destinations informartion, crew members and some of the technology used to travel.
+A Landing page about a fictional Fitness App. It includes an about section, with description about the service, a section with the results of the SB Fitness Program, testimonials, contact section with form and an address card and map.
+
+It's based on the original Figma's [SPORT](https://www.figma.com/file/jJ9O9nSrSkEBmuHkPFDFCY/SPORT-(Community)?node-id=0%3A1) design, it's in russian so I had to translate but I didn't had time to review it.
 
 ---
 
 ## Learning
 
-Learned how to dynamic render components on react, maping data from a json file.
+Practicing more with React and TailwindCSS
 
 ---
 
@@ -26,24 +28,30 @@ Learned how to dynamic render components on react, maping data from a json file.
 **Front-end:**
 
 - React
-- [React Router DOM](https://www.npmjs.com/package/react-router-dom)
 - [TailwindCSS](https://tailwindcss.com/docs/guides/create-react-app)
-- [Vite](https://vitejs.dev/)
+- [Vite Bundler](https://vitejs.dev/)
   
 ---
 
 ## Features
 
 ##### Responsivity:
-- [x] Mobile 375px
-- [x] Tablets 768px
-- [x] Desktop 1440px
+- [x] Mobile 375px - ideal @428px
+- [x] Desktop 1380px
+
+---
+
+## To-do
+
+Heres is the features I'd like to add though it's not included on the original design
+- [ ] More descriptions
+- [ ] Add more testimonials
 
 ---
 
 ## Demo
 
-[Live Test Here](http://mission-space-explorers.vercel.app/)
+[Live Test Here](http://fitness-app-lading.vercel.app/)
 
 ---
 
