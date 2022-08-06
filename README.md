@@ -2,7 +2,9 @@
 
  <!-- :uk: [English version](/Readme/README-en.md) / [Pt-BR version](../README.md) -->
 
- <img src="https://user-images.githubusercontent.com/2619027/183268553-7eb69699-05c6-4d0a-85a9-08dfe2b272b7.png" style="border-top-left-radius: 10px; border-top-right-radius: 10px">
+ <img src="https://raw.githubusercontent.com/felpfsf/sb-fitness-app-lading/master/design/sb-fitness-mockup.png" style="border-top-left-radius: 10px; border-top-right-radius: 10px">
+ 
+ <!-- <img src="https://user-images.githubusercontent.com/2619027/183268553-7eb69699-05c6-4d0a-85a9-08dfe2b272b7.png" style="border-top-left-radius: 10px; border-top-right-radius: 10px"> -->
  
 
   ![GitHub repo size](https://img.shields.io/github/repo-size/felpfsf/sb-fitness-app-lading) ![GitHub language count](https://img.shields.io/github/languages/count/felpfsf/sb-fitness-app-lading) ![GitHub top language](https://img.shields.io/github/languages/top/felpfsf/sb-fitness-app-lading)
