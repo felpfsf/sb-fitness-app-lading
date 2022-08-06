@@ -30,34 +30,34 @@ const Contact = () => {
           </p>
           {/* Social Links */}
           <ul className="mt-8 flex gap-4">
-            <li>
-              <div className="w-8 h-8 rounded-full bg-sbPallet-accent flex items-center justify-center">
-                <IoLogoWhatsapp size={20} color={'black'} />
+            <li className="cursor-pointer">
+              <div className="w-8 h-8 rounded-full bg-sbPallet-accent hover:bg-white flex items-center justify-center group ease-in duration-100">
+                <IoLogoWhatsapp className="text-black group-hover:text-sbPallet-accent  ease-in duration-100" size={20} />
               </div>
             </li>
-            <li>
-              <div className="w-8 h-8 rounded-full bg-sbPallet-accent flex items-center justify-center">
-                <IoLogoYoutube size={20} color={'black'} />
+            <li className="cursor-pointer">
+              <div className="w-8 h-8 rounded-full bg-sbPallet-accent hover:bg-white flex items-center justify-center group ease-in duration-100">
+                <IoLogoYoutube className="text-black group-hover:text-sbPallet-accent ease-in duration-100" size={20} />
               </div>
             </li>
-            <li>
-              <div className="w-8 h-8 rounded-full bg-sbPallet-accent flex items-center justify-center">
-                <FaFacebookF size={20} color={'black'} />
+            <li className="cursor-pointer">
+              <div className="w-8 h-8 rounded-full bg-sbPallet-accent hover:bg-white flex items-center justify-center group ease-in duration-100">
+                <FaFacebookF className="text-black group-hover:text-sbPallet-accent ease-in duration-100" size={20} />
               </div>
             </li>
-            <li>
-              <div className="w-8 h-8 rounded-full bg-sbPallet-accent flex items-center justify-center">
-                <IoLogoInstagram size={20} color={'black'} />
+            <li className="cursor-pointer">
+              <div className="w-8 h-8 rounded-full bg-sbPallet-accent hover:bg-white flex items-center justify-center group ease-in duration-100">
+                <IoLogoInstagram className="text-black group-hover:text-sbPallet-accent ease-in duration-100" size={20} />
               </div>
             </li>
-            <li>
-              <div className="w-8 h-8 rounded-full bg-sbPallet-accent flex items-center justify-center">
-                <IoLogoTiktok size={20} color={'black'} />
+            <li className="cursor-pointer">
+              <div className="w-8 h-8 rounded-full bg-sbPallet-accent hover:bg-white flex items-center justify-center group ease-in duration-100">
+                <IoLogoTiktok className="text-black group-hover:text-sbPallet-accent ease-in duration-100" size={20} />
               </div>
             </li>
-            <li>
-              <div className="w-8 h-8 rounded-full bg-sbPallet-accent flex items-center justify-center">
-                <IoLogoTwitter size={20} color={'black'} />
+            <li className="cursor-pointer">
+              <div className="w-8 h-8 rounded-full bg-sbPallet-accent hover:bg-white flex items-center justify-center group ease-in duration-100">
+                <IoLogoTwitter className="text-black group-hover:text-sbPallet-accent ease-in duration-100" size={20} />
               </div>
             </li>
           </ul>
